@@ -15,10 +15,14 @@ The setup is genre-agnostic. Fill in the placeholders, point the agents at your 
     writer.agent.md             # Drafts and revises chapters
     editor.agent.md             # Reviews style, voice, characters, clarity
     fact-checker.agent.md       # Audits plausibility, continuity, worldbuilding
+    reader.agent.md             # Beta-reader perspective: questions, confusion, drop-out points
+    worldbuilder.agent.md       # Maintains world/character/plot canon files
   instructions/
     author-voice.instructions.md                # The "how" — tone, sentence rhythm, taboos
     chapter-writing-guidelines.instructions.md  # The craft constants — tense, POV, format
 story-questions.md              # 99 questions to interrogate your story idea
+open-points.md                  # (created on first pipeline run) bookkeeping for open
+                                # author questions, deferred review notes, canon follow-ups
 ```
 
 ## How to use this template
@@ -52,7 +56,9 @@ story-questions.md              # 99 questions to interrogate your story idea
 | Writer | yes | yes (`chapters/`, canon files) | Draft and revise chapters |
 | Editor | no | no | Style, voice, character, clarity feedback |
 | FactChecker | no | no | Plausibility, continuity, worldbuilding audit |
-| Chapter-Pipeline | no | no | Orchestrate the three above |
+| Reader | no | no | Beta-reader feedback: what confuses, bores, or hooks |
+| Worldbuilder | no | yes (canon files only, never `chapters/` or `questions/`) | Keep worldbuilding consistent and propagate changes |
+| Chapter-Pipeline | no | no | Orchestrate Writer → Editor ∥ FactChecker → Writer |
 
 The two instruction files in `.github/instructions/` apply to every file under `chapters/` via their `applyTo` glob — they encode the craft constants and the author voice so every Copilot interaction in those files starts from the same foundation.
 

@@ -41,6 +41,7 @@ If one of these contradicts the tone of `chapters/` and `questions/`, or blocks 
 - NO meta-commentary in the prose (outside the optional `# Plan` block).
 - NO inventing plot, characters, factions, or technologies that aren't anchored in the worldbuilding files.
 - NO sweeping rewrites of existing chapter text without an explicit instruction. On explicit instruction: yes, gladly.
+- NO editing of `open-points.md` (the pipeline bookkeeping file). If you deliberately do not implement a revision item, name it in your chat report — the pipeline conductor records it.
 
 ## Procedure
 
@@ -48,8 +49,14 @@ If one of these contradicts the tone of `chapters/` and `questions/`, or blocks 
 2. **Tone calibration.** Read the most recent finished chapter in `chapters/` and at least the relevant `questions/` files (Tone/Genre/Atmosphere plus topic-specific ones).
 3. **Load context.** Only the worldbuilding files relevant to the scene (characters, location, technology, faction). Not everything at once.
 4. **Write.** Directly into the target file. {{LANGUAGE}}, native conventions for quotes and numbers. {{TENSE}}. {{POV}}. One POV character per chapter.
-5. **Update canon.** If you establish or change something that touches canon, update the affected source files in the same pass — not later.
+5. **Update canon.** If you establish or change something that touches canon, update the affected source files in the same pass — not later. (Exception: when called by the Chapter-Pipeline conductor, canon work is deferred to the Worldbuilder. The conductor will tell you if that mode applies; otherwise update canon yourself.)
 6. **Brief report.** In chat: what you wrote, which stylistic decisions you made, which canon files you updated, any open questions for the author.
+
+## When called as part of the chapter pipeline
+
+- For the **draft** pass: the conductor may pass you items pulled from `open-points.md` (open author questions, deferred review findings, Worldbuilder follow-ups). Treat them as part of the brief.
+- For the **revision** pass: revise targeted, do not rewrite. Tone and POV stay. If you deliberately do not implement an item from the revision list, say so in your chat report and give the reason — the conductor records it under "Deferred review findings" in the bookkeeping.
+- Do not edit `open-points.md` yourself.
 
 ## Style compass (derived from `chapters/` and `questions/`)
 
