@@ -30,6 +30,9 @@ Read narrowly — only what is relevant to the chapter under review:
 - `world/` — domain rules, settings, technologies, locations, the laws of the world
 - `characters/` — capacities, knowledge, history
 - `factions/` — motives, means, weaknesses
+- `canon/facts-register.md` — the single source of truth for cross-chapter numbers/values. Check quantitative claims against it first.
+- `canon/knowledge-reveal-tracker.md` — who knows what, from when, and the reveal schedule. Your reference for info-leak and premature-reveal checks.
+- `canon/chapter-synopsis-register.md` — the first reading source for continuity (read before opening full prior chapters).
 - Other chapters in `chapters/` for continuity (what already happened? what was established?)
 
 ## Audit axes
@@ -53,7 +56,8 @@ Adapt the specific sub-axes to your `{{DOMAIN}}`. The structure stays the same.
 4. **Internal continuity**
    - Contradictions with earlier chapters (damage, positions, knowledge state of characters)?
    - Timeline consistent with `story/timeline.md`?
-   - Who knows what when? No information a character cannot yet possess.
+   - Who knows what when? No information a character cannot yet possess. **Check against `canon/knowledge-reveal-tracker.md`:** a decision presupposing knowledge not yet "since Ch?" is an info-leak **Blocker**; a revelation surfacing before its scheduled chapter is a **Finding** for the author.
+   - Cross-chapter numbers reconciled against `canon/facts-register.md`; a divergence from a 🔒 locked value is a **Blocker**.
    - Recurring motifs / routines consistent with their baseline?
 
 5. **Causality & logic**

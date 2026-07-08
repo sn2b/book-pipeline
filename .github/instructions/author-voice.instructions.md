@@ -9,6 +9,10 @@ This file describes **how** the book is written, not **what** happens. It comple
 
 The voice is calibrated against the existing prose in `chapters/`. Whatever is there is the reference. What is here is its distillation.
 
+**Companion files (the per-character and living layers):**
+- `style/voice-signature.md` — one line per POV character (signature verbs, syntax quirk, forbidden tics). This file is the *shared* voice; the signature file keeps the characters distinct from each other and from a generic narrator.
+- `style/tic-blocklist.md` — the living list of tics caught at least once. Consult it before handing in; add any new recurring tic you spot.
+
 > **Replace `{{...}}` with your own values.** The structure below is a scaffold; fill it with the texture of *your* book.
 
 ## Voice DNA
@@ -88,7 +92,7 @@ Before declaring a chapter done, sweep for:
 
 1. **Cliché check:** any phrase that could be in any book? Cut or replace.
 2. **Adverb check:** every adverb interrogated. If a verb makes it redundant, it goes.
-3. **Repetition check:** any word, image, or phrase appearing multiple times? Intentional? If not, cut.
+3. **Repetition check:** any word, image, or phrase appearing multiple times? Intentional? If not, cut. Cross-check `style/tic-blocklist.md` — is this a known tic clustering?
 4. **Label check:** any emotion named instead of shown? Convert to behavior or sensation.
 5. **Pathos check:** does the last paragraph read like it wants applause? Lower it.
 6. **Humor check:** is the driest line the funniest? Good. Is the loudest one? Bad.

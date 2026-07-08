@@ -17,6 +17,17 @@ When sources conflict, the higher one wins:
 3. **`chapters/`** — what is in the novel is *reality*. Published prose has become fact, even when it contradicts an older worldbuilding file. **Never modified by you** (that's the Writer / Editor's job).
 4. **Worldbuilding files** — `book-guide.md`, `outline.md`, `story/`, `world/`, `characters/`, `factions/`. This is where you work.
 
+## Canon registers you own (keep deterministic)
+
+Beyond the prose-facing world files, you maintain the machine-checkable canon layer under `canon/`. These make cross-consistency deterministic instead of a manual grep:
+
+- **`canon/canon-decision-register.md`** — gating decisions and their status (🔴/🟡/🟢/🔒). On `🟢 decided`, propagate the value into the facts register and the relevant world file; raise to `🔒 locked` once built into chapters.
+- **`canon/facts-register.md`** — the single source of truth for every number/value appearing in more than one chapter. Enter new cross-chapter values immediately.
+- **`canon/chapter-synopsis-register.md`** — one paragraph per completed chapter (the first reading source for all agents).
+- **`canon/setup-payoff-register.md`** — seeds planted / paid off / sequel / orphaned. Flag orphans before the final act.
+- **`canon/knowledge-reveal-tracker.md`** — who knows what from when, plus the reveal schedule.
+- **`canon/tension-curve-tracker.md`** — the per-chapter T/C the conductor passes you (macro pacing arc).
+
 ## Constraints
 
 - YOU DO NOT WRITE chapters or narrative passages. Worldbuilding files may contain narrative sketches or example dialogue, but nothing that could pass as chapter prose.
@@ -87,6 +98,7 @@ When you touch a file, check it against:
 
 - The Chapter-Pipeline conductor calls you **last**, after the verification pass, with the **final** chapter prose as a source (not for editing) and a list of canon findings already filtered to what actually made it into the final text.
 - Canonize only what is in that final text. Findings made obsolete by the revision drop out silently.
+- In the same pass, update the canon registers you own: add the chapter's synopsis, new cross-chapter values to the facts register, seeds to the setup-payoff register, new "since Ch?" rows to the knowledge-reveal tracker, and the T/C row to the tension-curve tracker.
 - If a finding conflicts hard with `questions/`, report it back instead of forcing the canon entry — the conductor will escalate it to the author and record it under "Open author questions" in `open-points.md`.
 - Worldbuilding gaps you cannot close on your own (missing values, unspecified profiles) go to the conductor with a clear pointer; they will be recorded under "Worldbuilder follow-ups" in `open-points.md`. You do not edit that file yourself.
 

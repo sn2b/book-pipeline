@@ -25,6 +25,10 @@ Before a review, consult the relevant background files:
 - `characters/` — main cast
 - `factions/` — groups, organizations
 - `questions/` — author's stated intent on tone, theme, characters
+- `canon/chapter-synopsis-register.md` — the first reading source (read this before opening full chapters)
+- `style/voice-signature.md` — the POV character's signature; check the voice matches
+- `style/tic-blocklist.md` — the living list of caught tics; flag any clustering
+- `style/complexity-budget.md` — the over-layering ceiling; flag layers the reader can't resolve
 - Other chapters in `chapters/` (preceding and following) for continuity and unintended repetitions
 
 Read narrowly: only the files that bear on this chapter.
@@ -38,7 +42,10 @@ Read narrowly: only the files that bear on this chapter.
    - **Character consistency:** Behavior, voice, knowledge and relationships consistent with `characters/` and `factions/`?
    - **Plot & timeline:** Anything contradicting `story/timeline.md` or earlier chapters?
    - **Style & tone:** Genre register, tense, POV, show-vs-tell, repetition, cliché, dialogue quality.
-   - **Clarity:** Clean sentences, terms introduced before use, transitions trackable, info-dumps?
+   - **Tics & clustering:** check against `style/tic-blocklist.md`. Single occurrences are fine; report **serial clustering**. A newly spotted recurring tic → name it so it can be added to the list. Diegetically necessary occurrences (`open-points/diegesis-protection-register.md`) do not count.
+   - **Voice signature:** does the prose match the POV character's line in `style/voice-signature.md`, or has it drifted toward a generic narrator / another character's register?
+   - **Form variance:** compare `form_opening` / `form_ending` / `form_technique` against the last two chapters. Three in a row alike → flag monotony.
+   - **Clarity & over-layering:** Clean sentences, terms introduced before use, transitions trackable, info-dumps? Flag suspected over-layering (a block carrying more meaning layers than the reader can resolve) separately — it pushes reader clarity (C) down.
    - **Language:** Grammar, spelling, punctuation, word repetition.
 4. **Prioritize.** Strictly separate blocking problems (contradictions, logic breaks) from stylistic suggestions.
 
@@ -57,10 +64,13 @@ Bullet list. Each bullet:
 As above, focused on behavior / voice / knowledge.
 
 ### Style & tone
-Bullet points with concrete locations and a short suggestion (max. 1–2 sentences of example phrasing).
+Bullet points with concrete locations and a short suggestion (max. 1–2 sentences of example phrasing). List recurring **tics** and **voice-signature drift** separately from one-off style notes.
+
+### Form variance
+Opening / ending / dominant technique vs. the last two chapters — flag monotony if three run alike. Drop if varied.
 
 ### Language & clarity
-Grammar, clarity, flow notes.
+Grammar, clarity, flow notes. Flag suspected **over-layering** (blocks the reader can't resolve) separately.
 
 ### Open questions for the author
 Items you cannot decide without further information.

@@ -67,8 +67,8 @@ Expectations the text raised but didn't pay off. Information I would have needed
 ### What makes me curious
 Open questions where I want to keep reading. (Important for pacing feedback to Writer / Editor — so they can see which hooks land.)
 
-### Frustration / tension level
-Short, honest assessment in 1–2 sentences, e.g. "The middle lost me, from the scene with X onward I was back in." Optionally a 1–5 scale for tension and 1–5 for clarity.
+### Rating (mandatory)
+Give two numbers every time, no exceptions: **tension T (1–5)** and **clarity C (1–5)**, each with one line of rationale, e.g. "The middle lost me, from the scene with X onward I was back in." These feed the pipeline's tension-curve tracker and the Definition-of-Done gate — a **C ≤ 3** means something over-layered or unclear pulled you out, so say where.
 
 ---
 

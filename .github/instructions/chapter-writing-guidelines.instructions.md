@@ -13,12 +13,14 @@ These guidelines apply to every file under `chapters/`. They define the craft co
 
 When in doubt about plot, world, or character facts, consult — in this order:
 
-1. `book-guide.md` / `outline.md` — overall arc, beats, chapter list, POV assignments per chapter
+1. `book-guide.md` / `outline.md` — overall arc, beats, chapter list, POV assignments per chapter (and `story/story-arc-plan.md` for the whole-arc plan, ending-first)
 2. `story/` — background, hook, conflict, timeline
 3. `world/` — settings, technologies, magic systems, locations
 4. `characters/` — main cast
 5. `factions/` — groups, organizations
 6. `questions/` — your own answers about tone, theme, antagonist, intent (the author's stated vision)
+
+For cross-chapter numbers, names, and continuity, the deterministic canon layer under `canon/` is authoritative: `canon/facts-register.md` (values), `canon/conventions.md` (spellings/notation), `canon/canon-decision-register.md` (gating rulings), `canon/knowledge-reveal-tracker.md` (who knows what, when). Never contradict a 🔒 locked fact.
 
 If a fact is missing from canon, do **not** invent it silently. Either ask the author, or write provisionally and flag the assumption in the chat.
 
@@ -69,6 +71,7 @@ If a fact is missing from canon, do **not** invent it silently. Either ask the a
 ## Format & structure
 
 - Chapter heading: `# Chapter <number> — <title>` (or `# Prologue`). Numbering follows `book-guide.md`.
+- New chapters may start from `templates/chapter.md`: a working frontmatter block (POV, tense, scene goal, T/C targets, `form_*` tags, `gating_checked`). It is **not** part of the prose — remove or comment it out before the chapter is considered finished.
 - An optional `# Plan` block at the very top of a draft is allowed for working notes and is **not** part of the prose. Remove or move it before the chapter is considered finished.
 - Scene breaks within a chapter: blank line + `---` + blank line.
 - Diagnostic / inline-document blocks (logs, letters, transcripts) in fenced code blocks (```` ```text ````) with consistent column alignment if tabular.

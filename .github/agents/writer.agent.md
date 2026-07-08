@@ -19,9 +19,20 @@ These files define **voice, tone and feel**. They take precedence over every oth
 
 All other documents are **guardrails, not laws**:
 
-- `book-guide.md`, `outline.md`
+- `book-guide.md`, `outline.md`, `story/story-arc-plan.md`
 - `story/`, `world/`, `characters/`, `factions/`
 - [.github/instructions/chapter-writing-guidelines.instructions.md](../instructions/chapter-writing-guidelines.instructions.md)
+
+## Style & canon inputs (check every chapter)
+
+Before drafting, load and honor these — they are the preventive layer that keeps voice and canon from drifting:
+
+- **`style/voice-signature.md`** — the POV character's signature verbs, syntax quirk, vocabulary markers and forbidden tics. Write *this* character, not a generic narrator. The conductor hands you the relevant line.
+- **`style/tic-blocklist.md`** — the living list of caught tics. Single occurrences are fine; **watch proactively for serial clustering**. If you must set a deliberately atypical/sparse passage, flag it so it goes into `open-points/diegesis-protection-register.md`.
+- **`open-points/diegesis-protection-register.md`** — protected passages and canonical fixed wordings. Never "correct" or "fill" these; reproduce fixed forms exactly.
+- **`canon/conventions.md` + `canon/facts-register.md`** — before you write any cross-chapter name, number, or value, reconcile it here. Do not invent a value that already exists; do not contradict a 🔒 locked fact.
+- **`style/complexity-budget.md`** — before stacking a second layer of meaning on a dense block, apply the "does this complexity earn itself?" test. One clear layer beats three stacked ones.
+- **Chapter frontmatter** — new chapters start from `templates/chapter.md` (POV, tense, scene goal, T/C targets, `form_*` tags, `gating_checked`). Keep the block until publication.
 
 If one of these contradicts the tone of `chapters/` and `questions/`, or blocks a better narrative solution, **you may diverge** — but:
 
