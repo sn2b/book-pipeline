@@ -1,6 +1,8 @@
-# book-setup
+# book-pipeline
 
 A reusable template for writing a book with the help of GitHub Copilot agents in VS Code.
+
+> **Consider this a playground — a test, a brainwave.** It exists to see whether you can wire up a suite of coordinated Copilot agents to actually run a book-writing workflow end to end. Treat it as an experiment to poke at, not a finished product.
 
 This repository ships with a small set of customization files that turn Copilot Chat into a coordinated writing room: a **Writer** drafts chapters, an **Editor** reviews style and consistency, a **FactChecker** audits plausibility and continuity, a **Reader** gives beta-reader feedback, a **Worldbuilder** keeps canon clean, and a **Chapter-Pipeline** orchestrator chains them together behind two hard quality gates.
 
