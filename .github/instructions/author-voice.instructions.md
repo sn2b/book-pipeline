@@ -12,6 +12,7 @@ The voice is calibrated against the existing prose in `chapters/`. Whatever is t
 **Companion files (the per-character and living layers):**
 - `style/voice-signature.md` — one line per POV character (signature verbs, syntax quirk, forbidden tics). This file is the *shared* voice; the signature file keeps the characters distinct from each other and from a generic narrator.
 - `style/tic-blocklist.md` — the living list of tics caught at least once. Consult it before handing in; add any new recurring tic you spot.
+- `style/ai-writing-tells.md` — the general catalogue of flat-prose patterns (default vocabulary, negative parallelisms, rule-of-three, promotional register, register leakage). Fast drafting reaches for these by default; sweep for them explicitly.
 
 > **Replace `{{...}}` with your own values.** The structure below is a scaffold; fill it with the texture of *your* book.
 
@@ -96,4 +97,5 @@ Before declaring a chapter done, sweep for:
 4. **Label check:** any emotion named instead of shown? Convert to behavior or sensation.
 5. **Pathos check:** does the last paragraph read like it wants applause? Lower it.
 6. **Humor check:** is the driest line the funniest? Good. Is the loudest one? Bad.
-7. **Read aloud.** Wherever it sounds like back-cover copy, rewrite.
+7. **Flat-prose check:** sweep against `style/ai-writing-tells.md` — clustered default vocabulary, negative parallelisms ("not X but Y"), reflexive rule-of-three, trailing `-ing` glosses, spaced em dashes, or any register leakage ("Certainly," "it's worth noting," sourcing disclaimers). The leakage items are blockers, not stylistic nits.
+8. **Read aloud.** Wherever it sounds like back-cover copy, rewrite.

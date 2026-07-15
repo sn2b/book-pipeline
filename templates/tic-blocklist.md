@@ -3,6 +3,8 @@
 > **Purpose (hard-won lesson):** The same style tics returned chapter after chapter. This **living list** starts (almost) empty and grows as soon as a tic is caught *once* — after that the Writer watches for it while writing and the Editor while reviewing. Lives at `style/tic-blocklist.md`.
 >
 > **Rule:** Single occurrences are allowed. **Serial clustering** is the error. Diegetically necessary occurrences are protected (`open-points/diegesis-protection-register.md`) and do not count as a tic.
+>
+> **Companion:** `style/ai-writing-tells.md` is the *general* catalogue of flat-prose patterns (default vocabulary, negative parallelisms, rule-of-three, trailing participles, em-dash overuse, etc.). This blocklist tracks the *book-specific* tics caught in the act. When a general pattern from that catalogue keeps recurring here, promote it to a concrete entry below.
 
 ## Active Tics (avoid)
 

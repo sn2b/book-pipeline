@@ -47,6 +47,7 @@ Copy each template to its working location and fill in the `{{...}}` placeholder
 | `knowledge-reveal-tracker.md` | `canon/knowledge-reveal-tracker.md` | info leaks / premature twists |
 | `voice-signature.md` | `style/voice-signature.md` | character voices blurring together |
 | `tic-blocklist.md` | `style/tic-blocklist.md` | the same style tics recurring |
+| `ai-writing-tells.md` | `style/ai-writing-tells.md` | flat-prose patterns (default vocabulary, negative parallelisms, register leakage) |
 | `complexity-budget.md` | `style/complexity-budget.md` | over-layering that lowers clarity |
 | `diegesis-protection-register.md` | `open-points/diegesis-protection-register.md` | remediation passes breaking canonical forms |
 | `pre-flight-checklist.md` | run per chapter | writing on an unresolved gating decision |
@@ -72,7 +73,7 @@ characters/   # main cast and supporting characters
 factions/     # groups, organizations
 questions/    # your answers to the questions-vision interrogation, organized by theme (highest authority)
 canon/        # decision register, conventions, facts register, synopsis + pacing + seed + reveal trackers
-style/        # voice signature, tic blocklist, complexity budget
+style/        # voice signature, tic blocklist, flat-prose patterns catalogue, complexity budget
 open-points/  # diegesis protection register, done archive, dashboard (or single open-points.md at root)
 ```
 

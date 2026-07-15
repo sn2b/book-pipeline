@@ -67,6 +67,7 @@ If a fact is missing from canon, do **not** invent it silently. Either ask the a
 - **Dialogue:** terse, functional, character-specific. Each major character should be identifiable by voice alone in a stripped line of dialogue.
 - **Cut filler.** Adverb crutches replaced by stronger verbs. Repeated words flagged unless deliberate.
 - **Vary sentence length.** Short and hard in action and shock; longer and dissecting in observation and reflection.
+- **Avoid flat-prose patterns.** See `style/ai-writing-tells.md`. In particular: no clustered default vocabulary (delve, tapestry, testament, underscore, showcase, vibrant, intricate…), no reflexive rule-of-three, no "not just X but Y" parallelisms, no trailing `-ing` clauses that gloss a fact's significance, no travel-brochure register, and never any register leakage aimed at a reader ("Certainly," "it's worth noting," sourcing or missing-detail disclaimers).
 
 ## Format & structure
 

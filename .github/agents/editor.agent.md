@@ -28,6 +28,7 @@ Before a review, consult the relevant background files:
 - `canon/chapter-synopsis-register.md` — the first reading source (read this before opening full chapters)
 - `style/voice-signature.md` — the POV character's signature; check the voice matches
 - `style/tic-blocklist.md` — the living list of caught tics; flag any clustering
+- `style/ai-writing-tells.md` — the general catalogue of flat-prose patterns; sweep for clustered default vocabulary, negative parallelisms, rule-of-three, trailing `-ing` glosses, promotional register, and register leakage
 - `style/complexity-budget.md` — the over-layering ceiling; flag layers the reader can't resolve
 - Other chapters in `chapters/` (preceding and following) for continuity and unintended repetitions
 
@@ -43,6 +44,7 @@ Read narrowly: only the files that bear on this chapter.
    - **Plot & timeline:** Anything contradicting `story/timeline.md` or earlier chapters?
    - **Style & tone:** Genre register, tense, POV, show-vs-tell, repetition, cliché, dialogue quality.
    - **Tics & clustering:** check against `style/tic-blocklist.md`. Single occurrences are fine; report **serial clustering**. A newly spotted recurring tic → name it so it can be added to the list. Diegetically necessary occurrences (`open-points/diegesis-protection-register.md`) do not count.
+   - **Flat-prose patterns:** sweep against `style/ai-writing-tells.md`. Report *clustering* of default vocabulary, negative parallelisms ("not X but Y"), reflexive rule-of-three, trailing `-ing` significance glosses, spaced em dashes, or travel-brochure register. Any register leakage aimed at a reader ("Certainly," "it's worth noting," sourcing or missing-detail disclaimers, unfilled placeholders) is an automatic blocker, not a suggestion. Recurring patterns → name them for `style/tic-blocklist.md`.
    - **Voice signature:** does the prose match the POV character's line in `style/voice-signature.md`, or has it drifted toward a generic narrator / another character's register?
    - **Form variance:** compare `form_opening` / `form_ending` / `form_technique` against the last two chapters. Three in a row alike → flag monotony.
    - **Clarity & over-layering:** Clean sentences, terms introduced before use, transitions trackable, info-dumps? Flag suspected over-layering (a block carrying more meaning layers than the reader can resolve) separately — it pushes reader clarity (C) down.
